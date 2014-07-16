@@ -1,2 +1,48 @@
 @charset "utf-8";
 
+* {
+  margin-left: 10px;
+  font-family: Helvetica;
+  line-height: 180%;
+  color: #305FA4;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+h2{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 16px;
+  margin-left: 60px;
+  font-weight: normal;
+}
+
+.inputBox {
+  width: 500px;
+  height: 30px;
+  margin-left: 60px;
+  border: 1px solid #305FA4;
+}
+
+input[type=submit] {
+  height: 30px;
+  width: 90px;
+  background-color: #305FA4;
+  color: white;
+  border: none;
+
+}
