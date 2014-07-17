@@ -16,11 +16,11 @@ h1 {
   font-weight: bold;
   font-size: 50px;
 }
+
 h2 {
   font-weight: bold;
   font-size: 20px;
 }
-
 
 h3 {
   font-size: 20px;
@@ -28,10 +28,35 @@ h3 {
   font-weight: normal;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
 p {
   font-size: 16px;
   margin-left: 60px;
   font-weight: normal;
+}
+
+#otherFive {
+  width: 600px;
+  height: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid black;
+
 }
 
 .inputBox {
@@ -43,6 +68,8 @@ p {
 
 }
 
+
+
 input[type=submit] {
   height: 50px;
   width: 130px;
@@ -50,6 +77,17 @@ input[type=submit] {
   color: white;
   border: none;
   margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+ #finish {
+  height: 50px;
+  width: 130px;
+  background-color: white;
+  color: #E60000;
+  border: none;
+  margin-left: 20px;
   margin-right: auto;
   font-size: 20px;
 }
@@ -65,12 +103,29 @@ div {
   padding-left: 40px;
   padding-right: 40px;
   position: relative;
+  
 }
 
-.startButton {
+.nextButton {
   
   float: right;
   margin-top: 90px;
+}
+
+#buttonTwo {
+  margin-top: 270px;
+}
+
+#buttonThree {
+  margin-top: 40px;
+}
+
+#buttonFour {
+  margin-top: 20px;
+}
+
+#buttonFive {
+  margin-top: -50px;
 }
 
 
