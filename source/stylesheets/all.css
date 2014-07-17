@@ -1,28 +1,31 @@
+
+
 @charset "utf-8";
 
-* {
+
+
+body {
+  background-color: #E60000;
   margin-left: 10px;
   font-family: Helvetica;
   line-height: 180%;
-  color: #305FA4;
+  color: #E60000;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
 }
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
-h2{
-  font-weight: bold;
-  font-size: 16px;
-}
+
 
 h3 {
   font-size: 20px;
   margin-left: 40px;
+  font-weight: normal;
 }
 
 p {
@@ -32,17 +35,43 @@ p {
 }
 
 .inputBox {
-  width: 500px;
-  height: 30px;
-  margin-left: 60px;
-  border: 1px solid #305FA4;
+  width: 900px;
+  height: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid black;
+
 }
 
 input[type=submit] {
-  height: 30px;
-  width: 90px;
-  background-color: #305FA4;
+  height: 50px;
+  width: 130px;
+  background-color: #E60000;
   color: white;
   border: none;
-
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
 }
+
+div {
+  height: 600px;
+  width: 1100px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.startButton {
+  
+  float: right;
+  margin-top: 90px;
+}
+
+
+
