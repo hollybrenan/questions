@@ -10,6 +10,10 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('#previousTwo').click(function(){
+		$('#cardTwo').slideDown('slow');
+	});
+
 	$('#buttonThree').click(function(){
 		$('#cardThree').slideUp('slow');
 		return false;
